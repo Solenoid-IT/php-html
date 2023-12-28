@@ -76,7 +76,7 @@ class Document
     public function to_string ()
     {
         // (Getting the value)
-        $content = $this->dom->saveXML();
+        $content = $this->dom->saveHTML();
 
         if ( $content === false )
         {// (Unable to save the content)
